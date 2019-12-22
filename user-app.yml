@@ -2,10 +2,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  cloudfoundry:
-    skip-ssl-validation: true
